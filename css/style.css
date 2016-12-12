@@ -129,7 +129,7 @@ a{text-decoration:none;outline:0;}
 .ProClaT{
 	width: 192px;height:66px; padding-bottom: 18px;
 	color:#f02e49;font-size: 24px; line-height: 66px; text-align: center;
-	background: url(../images/index_09.jpg) left top no-repeat;margin:0 auto;}
+	background: url(../images/index_08.png) left top no-repeat;margin:0 auto;}
 .ProClaT span{ color:#1561af;}
 .ProClaList{width: 192px;margin:0 auto;}
 .ProClaList li{ width: 192px; height: 42px; padding-bottom: 10px;}
@@ -144,7 +144,7 @@ a{text-decoration:none;outline:0;}
 	overflow: hidden;
 	font-size: 14px;
 	line-height: 40px;
-	background: url(../images/proclassbg.png) 170px center no-repeat #f6f6f6;
+	background: url(../images/index_09.png) 150px center no-repeat #f6f6f6;
 	}
 .ProClaList li a:hover{
 	color:#ffffff;
