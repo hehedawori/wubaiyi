@@ -10,10 +10,9 @@
 <script language="JavaScript" type="text/javascript" src="js/inc.js"></script>
 <script language="JavaScript" type="text/javascript" src="js/banner.js"></script>
 <script language="JavaScript" type="text/javascript" src="js/zoom.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="js/dd_belatedpng.js"></script>
-<![endif]-->
-<!-- Baidu Tongji BEGIN -->
+<script type="text/javascript" src="//cdn.staticfile.org/zepto/1.0rc1/zepto.min.js"></script>
+<script type="text/javascript" src="./js/pagination.min.js"></script>
+
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -22,6 +21,7 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(hm, s);
 })();
+
 </script>
 <!-- Baidu Tongji END -->
 
@@ -207,68 +207,15 @@ var _hmt = _hmt || [];
     </div><!-- end inProBd-->
 </div>
 <div class="section">
-    <!-- <div class="Ttitle">
-        <div class="Font"> 新闻动态 </div>
-        <div class="English"> news </div>
-    </div><!-- end Ttitle-->
-    <!-- <div class="newsList clear-fix">
-                <dl class="newsListDl">
-            <a href="#" >
-                <dt class="num">01</dt>
-                <dd>
-                    <span class="title">航民股份跟踪报告:公司印染主业平稳发展,积极向上游纺织机械拓展</span>
-                    <span class="intro">公司在印染主业平稳发展的前提下,积极向上游纺织机械拓展,利用自身在印染行业的资源和业务优势,发展与印染相关的印染机械的发展,不断拓展新的利益增长点。</span>
-                </dd>
-            </a>
-        </dl>
-                <dl class="newsListDl">
-            <a href="#" >
-                <dt class="num">02</dt>
-                <dd>
-                    <span class="title">平原德业纺织与天津工业大学共建实验室研发新型纺织机</span>
-                    <span class="intro">平原德业纺织与天津工业大学共建实验室研发新型纺织机械装备。实验室投资3000 万元,主要研发生产纺织机器人、打包机等新型纺织机械装备,目前纺织机器人正进行终试。</span>
-                </dd>
-            </a>
-        </dl>
-                <dl class="newsListDl">
-            <a href="#" >
-                <dt class="num">03</dt>
-                <dd>
-                    <span class="title">《国际纺织机械年度交易量统计数据》更新</span>
-                    <span class="intro">以上数据来自国际纺织制造商联合会(ITMF)刚刚发布的第38期《国际纺织机械年度交易量统计数据》(ITMSS)。该报告包括6种类型的纺织机械,即纺纱机械、拉伸—变形机、织...</span>
-                </dd>
-            </a>
-        </dl>
-                <dl class="newsListDl">
-            <a href="#" >
-                <dt class="num">04</dt>
-                <dd>
-                    <span class="title">自动化技术让纺织机械改革升级</span>
-                    <span class="intro">近年来,纺织机械行业经历着一次次巨大的技术变革的洗礼。首先对于设备的互联,即面向整厂的设备集成,将设备之间的生产关系进行最优布局,并监控整个生产过程,这样不仅...</span>
-                </dd>
-            </a>
-        </dl>
-                <dl class="newsListDl">
-            <a href="#" >
-                <dt class="num">05</dt>
-                <dd>
-                    <span class="title">纺织机械企业利润率持续走低一百多家企业已转产</span>
-                    <span class="intro">纺织机械产业的周期一般在三年左右,行情一年好、一年平、一年相对较差,但这次的周期明显超出预期。在中国纺织机械名镇王台,人们习惯用高速出口堵不堵车来判断纺机产业...</span>
-                </dd>
-            </a>
-        </dl>
-                <dl class="newsListDl">
-            <a href="#" >
-                <dt class="num">06</dt>
-                <dd>
-                    <span class="title">全球知名纺织机械制造商瑞士立达集团进驻新疆</span>
-                    <span class="intro">新华社乌鲁木齐4月30日电(记者李晓玲)看中新疆由棉花种植基地向纺织工业基地转变升级的发展需求,全球知名的纺织机械制造商瑞士立达集团日前在新疆设立了分公司。</span>
-                </dd>
-            </a>
-        </dl>
-
-    </div><!-- end serList-->
-    <!-- <div class="Tmore"><a href="#" >查看更多</a></div> -->
+<LINK href="css/pagination.css" rel="stylesheet">
+<ul class="pagination">
+  <li><a href="#page=prev">上一页</a></li>
+  <li><a href="#page=1">1</a></li>
+  <li class="active"><a href="#page=2">2</a></li>
+  <li><a href="#page=3">3</a></li>
+  <li><a href="#page=4">4</a></li>
+  <li><a href="#page=next">下一页</a></li>
+</ul>
 </div>
 <div class="sectionB noneTopBorder">
      <div class="casePic clear-fix">
@@ -344,7 +291,7 @@ var _hmt = _hmt || [];
 
             <li class="caseMore"><a href="#" >查看更多</a></li>
         </ul>
-    </div><!-- end casePic--> -->
+    </div><!-- end casePic-->
 </div>
 <div class="section">
     <div class="company">
